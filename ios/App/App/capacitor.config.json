@@ -3,8 +3,13 @@
   "appName": "app.nuxtjs.org",
   "webDir": "dist",
   "bundledWebRuntime": false,
-  "server": {
-    "url": "http://192.168.2.22:8000/",
-    "cleartext": false
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "showSpinner": true,
+      "splashFullScreen": true,
+      "splashImmersive": true,
+      "backgroundColor": "#ffffffff"
+    }
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div :class="cookieSpacerStyles">
     <!-- <MasteringNuxtBanner /> -->
-    <TheHeader />
+    <TheHeader :class="$capacitor.getPlatform() === 'ios' ? 'pt-12' : ''" />
     <main
       class="lg:block relative bg-light-elevatedSurface dark:bg-dark-elevatedSurface transition-colors duration-300 ease-linear"
     >

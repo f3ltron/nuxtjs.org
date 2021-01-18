@@ -112,7 +112,8 @@ export default {
     '~/plugins/adblock.client.js',
     '~/plugins/newsletter.client.js',
     '~/plugins/vue-scrollactive',
-    '~/plugins/contributors'
+    '~/plugins/contributors',
+    '~/plugins/capacitor.js'
   ],
   env: {
     DEPLOY_PRIME_URL: process.env.DEPLOY_PRIME_URL || false,
